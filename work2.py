@@ -2,6 +2,8 @@ import io # обязательные библиотеки для stremlit
 import streamlit as st # # обязательные библиотеки для stremlit
 from PIL import Image # библиотека для загрузки изображений
 import torch
+from torchvision import transforms
+import urllib
 
 model = torch.hub.load('nicolalandro/ntsnet-cub200', 'ntsnet', pretrained=True,
                        **{'topN': 6, 'device':'cpu', 'num_classes': 200})
