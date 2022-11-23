@@ -1,9 +1,7 @@
 import io # обязательные библиотеки для stremlit
 import streamlit as st # # обязательные библиотеки для stremlit
 from PIL import Image # библиотека для загрузки изображений
-import torch
-from torchvision import transforms
-import urllib
+
 
     
 def load_image():
