@@ -1,13 +1,9 @@
 import io # обязательные библиотеки для stremlit
 import streamlit as st # # обязательные библиотеки для stremlit
 from PIL import Image # библиотека для загрузки изображений
-#import torch
-from transformers import VisionEncoderDecoderModel, ViTFeatureExtractor, AutoTokenizer
-from transformers import pipeline
 
 import torch
 import requests
-from PIL import Image
 from transformers import ViTFeatureExtractor, AutoTokenizer, VisionEncoderDecoderModel
 
 
